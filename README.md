@@ -20,6 +20,8 @@ To use the model, navigate to the bottom of the “Car Sales Price Prediction Mo
 ## Step 4:
 After making all required selections, click on the “predict selling price” button and the model will print a determined true value of the selected car.
 
+![UI Outcome reference screenshot](https://github.com/TrevorMabrey/Car-Value-Predictor/blob/main/CapstoneUIOutcome.JPG?raw=true)
+
 ## Machine Learning
 The model for predicting the selling price will use the linear regression model from Sklearn, which is a simple and widely used algorithm for predicting attributes that are continuous. A selling price is a continuous value with an unlimited number of variants, so a regression-based tool works for this application. LinearRegression will take all input variables, and try to fit them against a straight line, hence its linear definition. The closer this line gets to all the points it is reading, the more accurate the predictive algorithm will be. 
 	My model will be trained using 80 percent of the data, with 20 percent reserved for evaluation. The categorical inputs will be made into columns in the table with either 1 or 0, so that the regression algorithm can correctly use them. Attributes that either were not heavily correlated with the price outcome or resulted in the program overcoming the maximum processing ability of the host platform, were dropped from the data table. To create predictions, a form will allow the user to input attributes, which will be used to create an entry with the same data frame format as the original data and the model will match this entry to a point on the regression line representing the price. 
