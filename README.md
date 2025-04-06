@@ -6,8 +6,14 @@
 Find the tab on the top left corner called “runtime” and click on it. In the dropdown, click “run all”.
 	Entries at the bottom of the “Car Sales Analysis section include details about the dataset, as well as a visual explaining the correlation between significant attributes.
 
+![data visual reference screenshot](https://github.com/TrevorMabrey/Car-Value-Predictor/blob/main/capstoneInitialData.JPG?raw=true)
+![data visual reference screenshot](https://github.com/TrevorMabrey/Car-Value-Predictor/blob/main/CapstoneDataVisual.JPG?raw=true)
+
 ## Step 3:
 To use the model, navigate to the bottom of the “Car Sales Price Prediction Model” section, where you will find an input form with the user able to specify the Year, Make, Body, Transmission, State, and Odometer. Year specifies the manufacture year of the car of interest. Make is the company that produced the car, for example, Honda. The body is the standardized body type representing the car’s purpose, for instance, an SUV or sedan. The state will be the state initial of where the sale will take place. Finally, the odometer is how many miles the car has accrued since manufacture. 
+
+![UI Widget reference screenshot](https://github.com/TrevorMabrey/Car-Value-Predictor/blob/main/CapstoneUIWidget.JPG?raw=true)
+
 
 
 
